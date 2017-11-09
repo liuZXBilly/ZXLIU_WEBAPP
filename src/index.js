@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App'
-import routes from './config/routes'
 import registerServiceWorker from './registerServiceWorker';
 
 // function todos(state = [], action) {
