@@ -1,4 +1,4 @@
-.navigator{
+.navigator-left{
 	float:left;
 	height:44px;
 	width:100%;
@@ -40,4 +40,17 @@
 	overflow: hidden;
 	cursor:pointer;
 	text-decoration: none;
+}
+
+.navigator-home {
+	width:auto;
+	color:white;
+	background-color: inherit;
+/*	background-image: url('../../icons/icon-home.svg');*/
+	background-size:100%;
+}
+
+.navigator-right {
+	width: auto;
+	float:right;
 }

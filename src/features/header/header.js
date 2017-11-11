@@ -4,7 +4,9 @@ import './header.css'
 function Header (props) {
 	return (
 		<div>
-			<div className='navigator'>
+			<div className='navigator-left'>
+				<div className='navigator-home'>
+				</div>
 				<ul id='navigator_menu'>
 					<li className='navigator-item'>
 						<a className='navigator-button' href='http://www.google.com'>
@@ -21,8 +23,12 @@ function Header (props) {
 							Work Item
 						</a>
 					</li>
-				</ul>
+				</ul>			
 			</div>
+			<div className='navigator-right'>
+					<input>
+					</input>
+				</div>
 		</div>
 	)
 }
