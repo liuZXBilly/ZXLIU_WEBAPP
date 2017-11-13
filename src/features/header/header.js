@@ -4,7 +4,7 @@ import './header.css'
 function Header (props) {
 	return (
 		<div>
-			<div className='navigator-left'>
+			<div className='navigator'>
 				<div className='navigator-home'>
 				</div>
 				<ul id='navigator_menu'>
@@ -23,12 +23,12 @@ function Header (props) {
 							Work Item
 						</a>
 					</li>
-				</ul>			
+				</ul>
+				<div className='navigator-right'>
+					<input type='text' placeholder='Search' />
+				</div>			
 			</div>
-			<div className='navigator-right'>
-					<input>
-					</input>
-				</div>
+
 		</div>
 	)
 }

@@ -1,0 +1,35 @@
+.contentCanvas {
+    background-color: #ADD8E6;
+    position:absolute;
+    width:100%;
+    top:44px;
+    bottom:0;
+}
+
+.adCanvas {
+    width:250px;
+    height:100%;
+    background-color:#87CEFA;
+    display: block;
+    float: left;
+}
+
+.blogCanvas {
+    width:700px;
+    height: 100%;
+    background-color: #ADD816;
+    float: left;
+    display: block;
+}
+
+.selfIntro {
+    text-align:center;
+}
+
+.selfie {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 250px;
+    width: 200px;
+}

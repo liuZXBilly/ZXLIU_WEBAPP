@@ -1,5 +1,5 @@
-.navigator-left{
-	float:left;
+.navigator{
+	position:relative;
 	height:44px;
 	width:100%;
 	overflow:hidden;
@@ -53,4 +53,6 @@
 .navigator-right {
 	width: auto;
 	float:right;
+	position: absolute;
+	right:5%;
 }
